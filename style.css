@@ -1,0 +1,48 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: #333;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a.active {
+  background-color: #4CAF50;
+}
